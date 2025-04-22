@@ -1,0 +1,20 @@
+**Ata da Reunião**
+
+**Data:** 22/04/2025 
+**Participantes:** Ramon, João, Ademir, Josane  
+**Assunto:** Validação da Dashboard de Solicitações de Compra
+
+---
+
+**Pontos discutidos:**
+
+1. **Aba Principal:**
+   - Incluir a quantidade de pedidos na tela inicial (card na parte superior).
+   - Incluir o e-mail mla.compras como comprador para melhor visualização do "Solicitações por Comprador" onde aparece "em branco" porque alguns são do mla.compras e outros não.
+
+2. **Aba Compradores:**
+   - Destacar em todos os visuais na cor vermelha as linhas que excedem três dias para facilitar a visualização.
+
+3. **Aba Detalhamento:**
+   - Incluir colunas com o número do pedido e a data de emissão do pedido na aba de detalhamento.
+   - Incluir filtros por tipo de fornecedor (transportadora, material, serviços) para facilitar a análise. Usar coluna "TIPO_FORNECEDOR" da tabela "DIM_EMITENTE_ID".
