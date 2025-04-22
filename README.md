@@ -22,22 +22,22 @@ This project uses the power of artificial intelligence to transcribe audio files
 
 2. **Audio Preparation:**
    - Place the meeting audio file (e.g., `meeting.mp3`) in the project root.
-   - Run the `DividirEmPartesMenores.py` script to split the audio into smaller segments:
+   - Run the `SplitIntoSmallerParts.py` script to split the audio into smaller segments:
      ```bash
-     python DividirEmPartesMenores.py
+     python SplitIntoSmallerParts.py
      ```
 
 3. **Transcription and Minutes Generation:**
-   - Run the `Transcrever.py` script to transcribe the audio segments and generate the meeting minutes:
+   - Run the `Transcribe.py` script to transcribe the audio segments and generate the meeting minutes:
      ```bash
-     python Transcrever.py
+     python Transcribe.py
      ```
    - The complete transcription will be saved in `transcricao_completa.txt`, and the initial meeting minutes in `ata_da_reuniao.txt`.
 
 4. **Minutes Enhancement:**
-   - Run the `CriarAta.py` script to improve the meeting minutes:
+   - Run the `GenerateMeetingMinutes.py` script to improve the meeting minutes:
         ```bash
-        python CriarAta.py
+        python GenerateMeetingMinutes.py
         ```
    - The enhanced meeting minutes will be saved in `ata_melhorada_da_reuniao.txt`.
 
@@ -49,9 +49,9 @@ This project uses the power of artificial intelligence to transcribe audio files
    - The PDF minutes will be saved as `resultado.pdf`.
 
 ## Important Files
-- `DividirEmPartesMenores.py`: Splits the audio file into smaller segments.
-- `Transcrever.py`: Transcribes audio segments and generates the initial meeting minutes.
-- `CriarAta.py`: Enhances the meeting minutes.
+- `SplitIntoSmallerParts.py`: Splits the audio file into smaller segments.
+- `Transcribe.py`: Transcribes audio segments and generates the initial meeting minutes.
+- `GenerateMeetingMinutes.py`: Enhances the meeting minutes.
 - `RenderizarDocxToPDF.py`: Converts the minutes from Markdown to PDF.
 - `transcricao_completa.txt`: Contains the complete audio transcription.
 - `ata_da_reuniao.txt`: Contains the generated meeting minutes.

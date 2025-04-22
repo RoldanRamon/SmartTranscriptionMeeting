@@ -2,4 +2,6 @@
 *.mp3
 .env
 .pdf
-.txt
+transcricao_completa.txt
+ata_melhorada_da_reuniao.txt
+ata_da_reuniao.txt
